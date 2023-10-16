@@ -133,5 +133,22 @@ footer .right .ig-wsp-mail img {
     width: 4rem;
   }
 }
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .center {
+    display: none;
+  }
+  footer .left {
+    padding: 0;
+  }
+  footer .right {
+    padding-bottom: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
