@@ -271,13 +271,13 @@ main .imgs-p2 .tropi img:hover {
 }
 
 @media (max-width: 1350px) {
-  .p-p2 {
+  main .p-p2 {
     padding-top: 2rem;
     padding-bottom: 2.5rem;
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .imgs-p2 {
+  main .imgs-p2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
