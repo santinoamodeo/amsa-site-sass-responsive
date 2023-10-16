@@ -150,5 +150,10 @@ footer .right .ig-wsp-mail img {
     padding-bottom: 3rem;
   }
 }
+@media (max-width: 425px) {
+  .img-footer {
+    width: 14rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
