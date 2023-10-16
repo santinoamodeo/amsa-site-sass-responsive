@@ -1,0 +1,17 @@
+@media(max-width: 1024px){
+    footer{
+        .left{
+            padding-left: 1rem;
+        }
+        .center{
+            form{
+                input{
+                    width: 10rem;
+                }
+                button{
+                    width: 4rem;
+                }
+            }
+        }
+    }
+}
