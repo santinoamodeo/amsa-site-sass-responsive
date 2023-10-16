@@ -322,7 +322,7 @@ main .imgs-p2 .tropi img:hover {
   }
 }
 .main-login {
-  padding: 10rem 0;
+  padding: 10rem;
   background-color: #65A23F;
   border-radius: 50%;
   display: flex;
