@@ -35,4 +35,19 @@ header nav .navbar li a:hover {
   color: #65A23F;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem;
+  }
+  header .navbar {
+    gap: 1.1rem;
+  }
+  header .navbar li a {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
