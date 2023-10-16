@@ -232,6 +232,57 @@ main .grid-container .spices .button-card a {
     width: 19rem;
   }
 }
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .h1-p2 h1 {
+  font-size: 2.81rem;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+main .p-p2 {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+main .p-p2 p {
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+main .imgs-p2 {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 2rem 1rem;
+  padding-bottom: 3rem;
+}
+main .imgs-p2 .euro img {
+  border-radius: 1.875rem;
+}
+main .imgs-p2 .euro img:hover {
+  filter: contrast(110%);
+}
+main .imgs-p2 .tropi img {
+  border-radius: 1.875rem;
+}
+main .imgs-p2 .tropi img:hover {
+  filter: contrast(110%);
+}
+
+@media (max-width: 1350px) {
+  .p-p2 {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .imgs-p2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 footer {
   display: grid;
   width: 100%;
