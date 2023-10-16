@@ -207,6 +207,26 @@ main .grid-container .spices .button-card a {
     width: 21.25rem;
   }
 }
+@media (max-width: 375px) {
+  main .section-principal h1 {
+    font-size: 1.2rem;
+  }
+  main .main-categories {
+    padding: 5rem 2rem;
+  }
+  main .main-categories h2 {
+    font-size: 1.2rem;
+  }
+  main .grid-container .nuts {
+    width: 19rem;
+  }
+  main .grid-container .seeds {
+    width: 19rem;
+  }
+  main .grid-container .spices {
+    width: 19rem;
+  }
+}
 footer {
   display: grid;
   width: 100%;
