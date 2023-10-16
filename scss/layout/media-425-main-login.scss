@@ -1,0 +1,16 @@
+@media(max-width: 425px){
+    .main-login{
+        background-color: $grey-d9;
+    }
+    .text-p4{
+        h1{
+            font-size: 2.3rem;
+            background-color: $green-hover;
+            padding: 1rem;
+            border-radius: 1.875rem;
+        }
+    }
+    .inputs-p4{
+        background-color: $green-hover;
+    }
+}
