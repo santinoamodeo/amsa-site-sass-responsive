@@ -287,6 +287,10 @@ main .imgs-p2 .tropi img:hover {
   main .h1-p2 h1 {
     font-size: 2rem;
   }
+  main .p-p2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
   main .p-p2 p {
     font-size: 1.4rem;
   }
@@ -295,6 +299,26 @@ main .imgs-p2 .tropi img:hover {
   }
   main .imgs-p2 .tropi img {
     width: 27rem;
+  }
+}
+@media (max-width: 425px) {
+  main .h1-p2 h1 {
+    font-size: 1.8rem;
+  }
+  main .p-p2 {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  main .p-p2 p {
+    font-size: 1.2rem;
+  }
+  main .imgs-p2 .euro img {
+    width: 18rem;
+  }
+  main .imgs-p2 .tropi img {
+    width: 18rem;
   }
 }
 footer {

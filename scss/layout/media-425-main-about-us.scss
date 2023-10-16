@@ -1,0 +1,30 @@
+@media(max-width:425px){
+    main{
+        .h1-p2{
+            h1{
+                font-size: 1.8rem;
+            }
+        }
+        .p-p2{
+            padding-top: 2rem;
+            padding-bottom: 2.5rem;
+            padding-left: 0;
+            padding-right: 0;
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        .imgs-p2{
+            .euro{
+                img{
+                    width: 18rem;
+                }
+            }
+            .tropi{
+                img{
+                    width: 18rem;
+                }
+            }
+        }
+    }
+}
