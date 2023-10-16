@@ -170,6 +170,23 @@ main .grid-container .spices .button-card a {
     font-size: 2.5rem;
   }
 }
+@media (max-width: 768px) {
+  main .section-principal h1 {
+    font-size: 1.7rem;
+  }
+  main .main-categories h2 {
+    font-size: 1.7rem;
+  }
+  main .grid-container .nuts {
+    padding: 2rem 0.2rem;
+  }
+  main .grid-container .seeds {
+    padding: 2rem 0.2rem;
+  }
+  main .grid-container .spices {
+    padding: 2rem 0.2rem;
+  }
+}
 footer {
   display: grid;
   width: 100%;
