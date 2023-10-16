@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    flex-direction: row;
+    border-bottom: solid #d9d9d9;
+    z-index: 2; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.56rem;
+    color: #ffffff;
+    background-color: #141d0f;
+    border-radius: 1.875rem;
+    padding: .5rem;
+}
+
+.navbar li a:hover{
+    color: #65A23F;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.section-principal{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/img/mix-frutos3.png);
+    background-size: cover;
+    background-position: 35% 35%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+}
+
+.section-principal:hover{
+    filter: contrast(110%);
+}
+
+.section-principal h1{
+    padding: 2.5rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.48);
+    color: white;
+    font-size: 2.81rem;
+    border-radius: 4rem;
+    flex-wrap: wrap;
+}
+
+.main-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6rem;
+    padding-bottom: 3.5rem;
+}
+
+.main-categories h2{
+    font-size: 2.2rem;
+    flex-direction: column;
+}
+
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.nuts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.nuts img{
+    border-radius: 1.875rem;
+}
+
+.seeds{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    }
+
+.seeds img{
+    border-radius: 1.875rem;
+}
+
+.spices{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    }
+
+.spices img{
+    border-radius: 1.875rem;
+}
+
+.button-card{
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #141d0f;
+    border-radius: 1.875rem;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+.button-card a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "left center right";
+    background-color: #d9d9d9;
+}
+
+.left{
+    grid-area: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7rem;
+}
+
+.img-footer{
+    width: 17rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    grid-area: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.center form input{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1.875rem;
+    border: none;
+}
+
+.center form button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #141d0f;
+    color: #d9d9d9;
+    border: none;
+}
+
+footer .center form button:hover {
+    background-color: #65A23F;
+    color: #000000;
+}
+
+.right{
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .ig-wsp-mail{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .ig-wsp-mail img{
+    width: 2.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* media */
+
+
+@media(max-width: 1024px){
+    .section-principal h1{
+        font-size: 2.5rem;
+    }
+    .main-categories h2{
+        font-size: 2.5rem;
+    }
+    .left{
+        padding-left: 1rem;
+    }
+
+    .center form input{
+        width: 10rem;
+    }
+
+    .center form button{
+        width: 4rem;
+    }
+}
+
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem .5rem;
+    }
+    .navbar{
+        gap: 1.1rem;
+    }
+    .navbar li a{
+        font-size: 1.1rem;
+        padding: .3rem;
+    }
+    .section-principal{
+        height: 18.75rem;
+    }
+    .section-principal h1{
+        font-size: 1.7rem;
+    }
+    .main-categories h2{
+        font-size: 1.7rem;
+    }
+    .nuts{
+        padding: 2rem .2rem;
+    }
+    .seeds{
+        padding: 2rem .2rem;
+    }   
+    .spices{
+        padding: 2rem .2rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .center{
+        display: none;
+    }
+    .left{
+        padding: 0;
+    }
+    .right{
+        padding-bottom: 3rem;
+    }
+}
+
+@media(max-width: 425px){
+    .navbar{
+        flex-direction: column;
+    }
+    .section-principal h1{
+        font-size: 1.4rem;
+    }
+    .main-categories{
+        padding-bottom: 1.5rem;
+    }
+    .main-categories h2{
+        font-size: 1.4rem;
+    }
+    .nuts{
+        width: 21.25rem;
+    }
+    .seeds{
+        width: 21.25rem;
+    }
+    .spices{
+        width: 21.25rem;
+    }
+    .img-footer{
+        width: 14rem;
+    }
+}
+
+@media(max-width: 375px){
+    .nuts{
+        width: 19rem;
+    }
+    .seeds{
+        width: 19rem;
+    }
+    .spices{
+        width: 19rem;
+    }
+    .section-principal h1{
+        font-size: 1.2rem;
+    }
+    .main-categories{
+        padding: 5rem 2rem;
+    }
+    .main-categories h2{
+        font-size: 1.2rem;
+    }
+}
