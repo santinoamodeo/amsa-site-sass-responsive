@@ -54,5 +54,72 @@ header nav .navbar li a:hover {
     flex-direction: column;
   }
 }
+footer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "left center right";
+  background-color: #d9d9d9;
+}
+footer .left {
+  grid-area: left;
+  justify-content: center;
+  align-items: center;
+  padding-left: 7rem;
+}
+footer .left .img-footer {
+  width: 17rem;
+  justify-content: center;
+  align-items: center;
+}
+footer .center {
+  grid-area: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+footer .center form input {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1.875rem;
+  border: none;
+}
+footer .center form button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #141d0f;
+  color: #d9d9d9;
+  border: none;
+}
+footer .center form button:hover {
+  background-color: #65A23F;
+  color: #000000;
+}
+footer .right {
+  grid-area: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .right .ig-wsp-mail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+footer .right .ig-wsp-mail img {
+  width: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
