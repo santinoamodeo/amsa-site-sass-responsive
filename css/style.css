@@ -26,7 +26,7 @@ header nav .navbar {
 header nav .navbar li a {
   text-decoration: none;
   font-size: 1.56rem;
-  color: #ffffff;
+  color: #d9d9d9;
   background-color: #141d0f;
   border-radius: 1.875rem;
   padding: 0.5rem;
@@ -47,6 +47,11 @@ header nav .navbar li a:hover {
   header .navbar li a {
     font-size: 1.1rem;
     padding: 0.3rem;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    flex-direction: column;
   }
 }
 
