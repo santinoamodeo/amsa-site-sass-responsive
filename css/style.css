@@ -283,6 +283,20 @@ main .imgs-p2 .tropi img:hover {
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+  main .h1-p2 h1 {
+    font-size: 2rem;
+  }
+  main .p-p2 p {
+    font-size: 1.4rem;
+  }
+  main .imgs-p2 .euro img {
+    width: 27rem;
+  }
+  main .imgs-p2 .tropi img {
+    width: 27rem;
+  }
+}
 footer {
   display: grid;
   width: 100%;

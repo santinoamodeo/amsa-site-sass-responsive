@@ -1,0 +1,26 @@
+@media(max-width: 768px){
+    main{
+        .h1-p2{
+            h1{
+                font-size: 2rem;
+            }
+        }
+        .p-p2{
+            p{
+                font-size: 1.4rem;
+            }
+        }
+        .imgs-p2{
+           .euro{
+            img{
+                width: 27rem;
+            }
+           } 
+           .tropi{
+            img{
+                width: 27rem;
+            }
+           } 
+        }
+    }
+}
