@@ -1,0 +1,64 @@
+.main-login{
+    padding: 10rem 0;
+    background-color: $green-hover;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    .text-p4{
+        padding-bottom: 2rem;
+        h1{
+            font-size: 3rem;
+            background-color: $grey-d9;
+            padding: 1rem;
+            border-radius: 1.875rem;
+        }
+    }
+    .inputs-p4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $grey-d9;
+        padding: 1rem;
+        border-radius: 1.875rem;
+        gap: 2rem;
+        .email-p4{
+            form{ 
+                input{
+                    width: 12rem;
+                    height: 2rem;
+                    border-radius: 1.875rem;
+                    border: none;
+                    background-color: #ffffff;
+                }
+            }
+        }
+        .pass-p4{
+            input{
+                width: 12rem;
+                height: 2rem;
+                border-radius: 1.875rem;
+                border: none;
+                background-color: #ffffff;
+            }
+        }
+        button{
+            width: 5rem;
+            height: 2rem;
+            border-radius: 2rem;
+            background-color: $back-butt-nav;
+            color: $grey-d9;
+            border: none;
+            &:hover{
+                background-color: $green-hover;
+                color: #000000;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}

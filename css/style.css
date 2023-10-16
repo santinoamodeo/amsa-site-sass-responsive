@@ -321,6 +321,65 @@ main .imgs-p2 .tropi img:hover {
     width: 18rem;
   }
 }
+.main-login {
+  padding: 10rem 0;
+  background-color: #65A23F;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.main-login .text-p4 {
+  padding-bottom: 2rem;
+}
+.main-login .text-p4 h1 {
+  font-size: 3rem;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 1.875rem;
+}
+.main-login .inputs-p4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+  padding: 1rem;
+  border-radius: 1.875rem;
+  gap: 2rem;
+}
+.main-login .inputs-p4 .email-p4 form input {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1.875rem;
+  border: none;
+  background-color: #ffffff;
+}
+.main-login .inputs-p4 .pass-p4 input {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 1.875rem;
+  border: none;
+  background-color: #ffffff;
+}
+.main-login .inputs-p4 button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background-color: #141d0f;
+  color: #d9d9d9;
+  border: none;
+}
+.main-login .inputs-p4 button:hover {
+  background-color: #65A23F;
+  color: #000000;
+}
+.main-login .inputs-p4 a {
+  text-decoration: none;
+  color: #000000;
+}
+
 footer {
   display: grid;
   width: 100%;
