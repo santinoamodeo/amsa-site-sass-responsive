@@ -4,4 +4,35 @@
   box-sizing: border-box;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  flex-direction: row;
+  border-bottom: solid #d9d9d9;
+  z-index: 2;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .navbar {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+header nav .navbar li a {
+  text-decoration: none;
+  font-size: 1.56rem;
+  color: #ffffff;
+  background-color: #141d0f;
+  border-radius: 1.875rem;
+  padding: 0.5rem;
+}
+header nav .navbar li a:hover {
+  color: #65A23F;
+}
+
 /*# sourceMappingURL=style.css.map */
