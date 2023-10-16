@@ -1,0 +1,26 @@
+@media(max-width: 425px){
+    main{
+        .section-principal{
+            h1{
+                font-size: 1.4rem;
+            }
+        }
+        .main-categories{
+            padding-bottom: 1.5rem;
+            h2{
+                font-size: 1.4rem;
+            }
+        }
+        .grid-container{
+            .nuts{
+                width: 21.25rem;
+            }
+            .seeds{
+                width: 21.25rem;
+            }
+            .spices{
+                width: 21.25rem;
+            }
+        }
+    }
+}
